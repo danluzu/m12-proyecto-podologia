@@ -1,0 +1,87 @@
+main{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.clinica{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px;
+    width: 1470px; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 20px; 
+    height: auto;
+    width: 150px;
+    margin-left: 15px;
+}
+
+.carrito{
+    display: flex;
+    flex: auto;
+    margin: 20px;
+}
+
+.datos{
+    margin-left: 260px;
+    margin-right: 10px;
+}
+
+.botones{
+    margin-left: 400px;
+    margin-right: 0px;
+}
+
+.boton-redondo {
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    border: black; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: flex;
+    /* margin-left: 660px;
+    margin-right: 40px; */
+    /*margin-bottom: auto;
+    margin-top: auto;
+    flex-direction: column; */
+    background-image: url(../img/x.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+.boton-redondo2{
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    border: black; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: flex;
+    /* margin-left: 660px;
+    margin-right: 40px; */
+    background-image: url(../img/insta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.boton-redondo3{
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    border: black; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: flex;
+    /* margin-left: 660px;
+    margin-right: 0px; */
+    background-image: url(../img/facebook.jpg);
+    background-size: cover;
+    background-position: center;
+}
